@@ -1,5 +1,5 @@
 /**
- * @class ExampleComponent
+ * @class WebcamNative
  */
 
 import * as React from "react";

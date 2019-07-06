@@ -1,6 +1,6 @@
 import WebcamNative from "./";
 
-describe("ExampleComponent", () => {
+describe("WebcamNative", () => {
   it("is truthy", () => {
     expect(WebcamNative).toBeTruthy();
   });

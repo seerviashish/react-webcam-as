@@ -14,7 +14,7 @@ export default class App extends Component {
     return (
       <div>
         <WebcamNative
-          accept="audio/*"
+          accept="image/*"
           label="Camera"
           onChange={this.handleOnChange}
           buttonStyle={{ textTransform: "none" }}
