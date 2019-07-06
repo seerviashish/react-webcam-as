@@ -1,6 +1,6 @@
 {
   "name": "react-webcam-as",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a react component providing native camera support for iOS and Android devices",
   "author": "seerviashish",
   "license": "MIT",
@@ -21,11 +21,13 @@
     "predeploy": "cd example && yarn install && yarn run build",
     "deploy": "gh-pages -d example/build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "exif-js": "^2.3.0"
+  },
   "peerDependencies": {
+    "exif-js": "^2.3.0",
     "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",
-    "exif-js": "^2.3.0",
     "react-dom": "^15.0.0 || ^16.0.0"
   },
   "devDependencies": {
@@ -36,7 +38,6 @@
     "babel-core": "^6.26.3",
     "babel-runtime": "^6.26.0",
     "cross-env": "^5.1.4",
-    "exif-js": "^2.3.0",
     "gh-pages": "^1.2.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
