@@ -10,7 +10,7 @@ assignees: ''
 
 <!--
   The GitHub issue tracker exists to track issues
-  that affect the development of seerviashsih/dnd-as itself.
+  that affect the development of seerviashsih/react-webcam-as itself.
 
   If you need technical support in building
   an app, or running a app, don't open an issue here.
