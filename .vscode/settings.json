@@ -1,19 +1,26 @@
 {
-  "eslint.autoFixOnSave": true,
-  "eslint.alwaysShowStatus": true,
-  "window.zoomLevel": 3,
-  "workbench.iconTheme": "vscode-icons",
-  "prettier.printWidth": 80,
-  "editor.wordWrap": "on",
   "editor.formatOnSave": true,
-  "editor.renderIndentGuides": true,
-  "editor.tabSize": 2,
-  "auto-close-tag.activationOnLanguage": ["*", "javascriptreact"],
-  "git.enableSmartCommit": true,
-  "prettier.eslintIntegration": true,
-  "vsicons.presets.jsOfficial": true,
-  "tslint.configFile": "./tsconfig*",
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.enable": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.tslint": true
-  }
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascruptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "cSpell.words": [
+    "Ashishkumar",
+    "codeql",
+    "commitlintrc",
+    "EXIF",
+    "nofix",
+    "nosolution",
+    "vitest",
+    "wontfix"
+  ]
 }

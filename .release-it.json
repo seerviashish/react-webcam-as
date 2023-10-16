@@ -1,0 +1,6 @@
+{
+  "git": {
+    "commitArgs": ["-S"],
+    "tagArgs": ["-S"]
+  }
+}
