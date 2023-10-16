@@ -1,12 +1,12 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
-import WebcamNative from "react-webcam-as";
+import WebcamNative from 'react-webcam-as';
 
 export default class App extends Component {
   state = {
-    webcamData: null
+    webcamData: null,
   };
-  handleOnChange = data => {
+  handleOnChange = (data) => {
     this.setState({ webcamData: data });
   };
   render() {
@@ -17,22 +17,22 @@ export default class App extends Component {
           accept="image/*"
           label="Camera"
           onChange={this.handleOnChange}
-          buttonStyle={{ textTransform: "none" }}
+          buttonStyle={{ textTransform: 'none' }}
         />
-        {webcamData && webcamData.type && webcamData.type.includes("image") && (
+        {webcamData && webcamData.type && webcamData.type.includes('image') && (
           <img
             src={webcamData.dataUrl}
             alt="webcam"
             width="100%"
-            style={{ imageOrientation: "from-image" }}
+            style={{ imageOrientation: 'from-image' }}
           />
         )}
-        {webcamData && webcamData.type && webcamData.type.includes("video") && (
+        {webcamData && webcamData.type && webcamData.type.includes('video') && (
           <video controls width="100%">
             <source src={webcamData.dataUrl} />
           </video>
         )}
-        {webcamData && webcamData.type && webcamData.type.includes("audio") && (
+        {webcamData && webcamData.type && webcamData.type.includes('audio') && (
           <audio controls>
             <source src={webcamData.dataUrl} />
           </audio>
