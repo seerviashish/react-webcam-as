@@ -1,6 +1,7 @@
+import * as exif from 'exif-js';
 import React, { useEffect, useRef } from 'react';
 
-const EXIF = require('exif-js');
+const EXIF = exif as EXIFStatic;
 
 interface IWebcam {
   accept?: string;
@@ -9,6 +10,14 @@ interface IWebcam {
   label: string;
   onChange: (data: Data) => any;
   style?: { button?: React.CSSProperties; input?: React.CSSProperties };
+}
+
+interface EXIFStatic {
+  getAllTags(img: any): any;
+  getData(url: string | HTMLImageElement, callback: any): any;
+  getTag(img: any, tag: any): any;
+  pretty(img: any): string;
+  readFromBinaryFile(file: any): any;
 }
 
 type Data = {
