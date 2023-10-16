@@ -1,7 +1,7 @@
 {
   "name": "react-webcam-as",
   "description": "This is a react component providing native camera support for iOS and Android devices",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": "Ashishkumar Chaudhary <seerviashish17@gmail.com> (https://github.com/seerviashish)",
   "license": "MIT",
   "keywords": [],
