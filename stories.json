@@ -1,0 +1,1 @@
+{"v":3,"stories":{"webcamexample--primary":{"id":"webcamexample--primary","name":"Primary","title":"WebcamExample","importPath":"./src/stories/Webcam.stories.tsx","tags":["story"],"kind":"WebcamExample","story":"Primary","parameters":{"__id":"webcamexample--primary","docsOnly":false,"fileName":"./src/stories/Webcam.stories.tsx"}}}}
