@@ -23,8 +23,8 @@ assignees: ''
 
 <!-- If the following boxes are not ALL checked, your issue is likely to be closed -->
 
-- [ ] Using an up-to-date [`main` branch](https://github.com/seerviashish/dnd-as/tree/main)
-- [ ] Checked closed issues [#Closed Issues](https://github.com/seerviashish/dnd-as/issues?q=is%3Aissue+is%3Aclosed)
+- [ ] Using an up-to-date [`main` branch](https://github.com/seerviashish/react-webcam-as/tree/main)
+- [ ] Checked closed issues [#Closed Issues](https://github.com/seerviashish/react-webcam-as/issues?q=is%3Aissue+is%3Aclosed)
 
 ## Expected Behavior
 
