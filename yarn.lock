@@ -2375,20 +2375,20 @@
   integrity sha512-CX6t4SYQ37lzxicAqsBtxA3OseeoVrh9cSJ5PFYam0GksYlupRfy1A+Q4aYD3zvcfECLc0zO2u+ZnR2UYKvCrw==
 
 "@storybook/addon-a11y@^7.2.1":
-  version "7.5.1"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.5.1.tgz#ed7876245c7b00fab4d742a058a32c577af17a79"
-  integrity sha512-BzmSIhgqR+WSS5gqSOyzFACs20Nv0Wk9b4lpUWw5zEqZkXy1PFAUyRQ65kD9Tdjc1O2KL2Zi1h/gi0O6dWldMg==
+  version "7.5.2"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.5.2.tgz#88876b99d49adda60f9c547e03cdb7d1b2df0571"
+  integrity sha512-HTYESaRr208b/AVguudRIy7rwRMk2bOkBr2P46ozK+8Y9mWXnKxw5O8qYS2kLuEuHfu1S+ktWp7SWjRvz8vHXA==
   dependencies:
-    "@storybook/addon-highlight" "7.5.1"
-    "@storybook/channels" "7.5.1"
-    "@storybook/client-logger" "7.5.1"
-    "@storybook/components" "7.5.1"
-    "@storybook/core-events" "7.5.1"
+    "@storybook/addon-highlight" "7.5.2"
+    "@storybook/channels" "7.5.2"
+    "@storybook/client-logger" "7.5.2"
+    "@storybook/components" "7.5.2"
+    "@storybook/core-events" "7.5.2"
     "@storybook/global" "^5.0.0"
-    "@storybook/manager-api" "7.5.1"
-    "@storybook/preview-api" "7.5.1"
-    "@storybook/theming" "7.5.1"
-    "@storybook/types" "7.5.1"
+    "@storybook/manager-api" "7.5.2"
+    "@storybook/preview-api" "7.5.2"
+    "@storybook/theming" "7.5.2"
+    "@storybook/types" "7.5.2"
     axe-core "^4.2.0"
     lodash "^4.17.21"
     react-resize-detector "^7.1.2"
@@ -2502,6 +2502,15 @@
     "@storybook/core-events" "7.5.1"
     "@storybook/global" "^5.0.0"
     "@storybook/preview-api" "7.5.1"
+
+"@storybook/addon-highlight@7.5.2":
+  version "7.5.2"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-7.5.2.tgz#b50af59399e7aa063693b457f1358eb92cc608f9"
+  integrity sha512-0vek42fHh7Aeinvkwge0ZTq5VfNsuMSejUv0wHa3zQWgUmlaRlGY8zDw7nG6LiIz6rnTBDTznsfyWenAySSHXg==
+  dependencies:
+    "@storybook/core-events" "7.5.2"
+    "@storybook/global" "^5.0.0"
+    "@storybook/preview-api" "7.5.2"
 
 "@storybook/addon-interactions@7.4.6":
   version "7.4.6"
@@ -2901,7 +2910,7 @@
     use-resize-observer "^9.1.0"
     util-deprecate "^1.0.2"
 
-"@storybook/components@7.5.1", "@storybook/components@^7.0.12":
+"@storybook/components@7.5.1":
   version "7.5.1"
   resolved "https://registry.yarnpkg.com/@storybook/components/-/components-7.5.1.tgz#677eae0e7976939434b5c391fe841ced9b66e082"
   integrity sha512-fdzzxGBV/Fj9pYwfYL3RZsVUHeBqlfLMBP/L6mPmjaZSwHFqkaRZZUajZc57lCtI+TOy2gY6WH3cPavEtqtgLw==
@@ -2913,6 +2922,22 @@
     "@storybook/global" "^5.0.0"
     "@storybook/theming" "7.5.1"
     "@storybook/types" "7.5.1"
+    memoizerific "^1.11.3"
+    use-resize-observer "^9.1.0"
+    util-deprecate "^1.0.2"
+
+"@storybook/components@7.5.2", "@storybook/components@^7.0.12":
+  version "7.5.2"
+  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-7.5.2.tgz#5409236b5b1b5d0189707cd76ea99220e3673884"
+  integrity sha512-OP+o6AoxoQDbqjk/jdQ1arlc1T8601eCL+rS1dJY9EtAFq7Z0LEFtafhEW/Lx8FotfVGjfCNptH9ODhHU6e5Jw==
+  dependencies:
+    "@radix-ui/react-select" "^1.2.2"
+    "@radix-ui/react-toolbar" "^1.0.4"
+    "@storybook/client-logger" "7.5.2"
+    "@storybook/csf" "^0.1.0"
+    "@storybook/global" "^5.0.0"
+    "@storybook/theming" "7.5.2"
+    "@storybook/types" "7.5.2"
     memoizerific "^1.11.3"
     use-resize-observer "^9.1.0"
     util-deprecate "^1.0.2"
@@ -3538,7 +3563,7 @@
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
-"@storybook/theming@7.5.1", "@storybook/theming@^7.0.12":
+"@storybook/theming@7.5.1":
   version "7.5.1"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.5.1.tgz#b3a78f493d644ac8cba5136e04479a58a9ba5546"
   integrity sha512-ETLAOn10hI4Mkmjsr0HGcM6HbzaURrrPBYmfXOrdbrzEVN+AHW4FlvP9d8fYyP1gdjPE1F39XvF0jYgt1zXiHQ==
@@ -3548,7 +3573,7 @@
     "@storybook/global" "^5.0.0"
     memoizerific "^1.11.3"
 
-"@storybook/theming@7.5.2":
+"@storybook/theming@7.5.2", "@storybook/theming@^7.0.12":
   version "7.5.2"
   resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-7.5.2.tgz#0608912cf0b8817d9c53d7e3c378e6a99c147444"
   integrity sha512-DZBTcYErSYvmTYsGz7lKtiIcBe8flBw5Ojp52r3O4GcRYG4AbuUwwVvehz+O1cWaS+UW3HavrcgapERH7ZHd1A==
