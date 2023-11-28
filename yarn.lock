@@ -2534,23 +2534,12 @@
   integrity sha512-rUV5WyJrJLoloD4NDN1V1+LDMDWOa4OTsT4yYJwQNpTU6FWxkxHpL7eu4w+DmiH8x/EAM1otkPE1+LaspIbplw==
 
 "@storybook/addon-a11y@^7.2.1":
-  version "7.5.3"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.5.3.tgz#6971092942bb4c5217d3fbb12a30acaea5e1eddd"
-  integrity sha512-Fs6BA4P0xBfsevo8H5E2IhMLLR3Q+FBRWHWAxGzhlkpNeH7ZZd87L5GrrLUmhzbCQvlHdWCVujWkwb21KX7Vsw==
+  version "7.6.0"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.6.0.tgz#456ac21be0907c433d5538db80e291841522c833"
+  integrity sha512-jJbrcqVt6/qn7vbV0tPsd3m8W9eheafBGz2lix5I68ZoaEZNqhlrr3r1pKqlqRkAyisAUI+ctrZsqhqid88VPQ==
   dependencies:
-    "@storybook/addon-highlight" "7.5.3"
-    "@storybook/channels" "7.5.3"
-    "@storybook/client-logger" "7.5.3"
-    "@storybook/components" "7.5.3"
-    "@storybook/core-events" "7.5.3"
-    "@storybook/global" "^5.0.0"
-    "@storybook/manager-api" "7.5.3"
-    "@storybook/preview-api" "7.5.3"
-    "@storybook/theming" "7.5.3"
-    "@storybook/types" "7.5.3"
+    "@storybook/addon-highlight" "7.6.0"
     axe-core "^4.2.0"
-    lodash "^4.17.21"
-    react-resize-detector "^7.1.2"
 
 "@storybook/addon-actions@7.5.1":
   version "7.5.1"
@@ -2662,14 +2651,12 @@
     "@storybook/global" "^5.0.0"
     "@storybook/preview-api" "7.5.1"
 
-"@storybook/addon-highlight@7.5.3":
-  version "7.5.3"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-7.5.3.tgz#ff1041aa1e9d76100ce6fb0b11e0d30078f858f7"
-  integrity sha512-jb+aNRhj+tFK7EqqTlNCjGkTrkWqWHGdD1ubgnj29v8XhRuCR9YboPS+306KYwBEkuF4kNCHZofLiEBPf6nCJg==
+"@storybook/addon-highlight@7.6.0":
+  version "7.6.0"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-7.6.0.tgz#0a17590a277223667c330be4ef439d85060304a2"
+  integrity sha512-9Ho4L47k9e36kIgNa0RA9ZXzn7AWmq/sXBMRK7PcgrMiKvYdRQMU0AMHDvICg2vI8IkMVXTEaT/CQPefG3XT0Q==
   dependencies:
-    "@storybook/core-events" "7.5.3"
     "@storybook/global" "^5.0.0"
-    "@storybook/preview-api" "7.5.3"
 
 "@storybook/addon-interactions@7.5.3":
   version "7.5.3"
@@ -10915,13 +10902,6 @@ react-remove-scroll@2.5.5:
     tslib "^2.1.0"
     use-callback-ref "^1.3.0"
     use-sidecar "^1.1.2"
-
-react-resize-detector@^7.1.2:
-  version "7.1.2"
-  resolved "https://registry.yarnpkg.com/react-resize-detector/-/react-resize-detector-7.1.2.tgz#8ef975dd8c3d56f9a5160ac382ef7136dcd2d86c"
-  integrity sha512-zXnPJ2m8+6oq9Nn8zsep/orts9vQv3elrpA+R8XTcW7DVVUJ9vwDwMXaBtykAYjMnkCIaOoK9vObyR7ZgFNlOw==
-  dependencies:
-    lodash "^4.17.21"
 
 react-shallow-renderer@^16.15.0:
   version "16.15.0"
