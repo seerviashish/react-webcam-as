@@ -2666,11 +2666,11 @@
   integrity sha512-rUV5WyJrJLoloD4NDN1V1+LDMDWOa4OTsT4yYJwQNpTU6FWxkxHpL7eu4w+DmiH8x/EAM1otkPE1+LaspIbplw==
 
 "@storybook/addon-a11y@^7.2.1":
-  version "7.6.3"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.6.3.tgz#405a5f7aed9e1b67a0caa9709724d8626d99c287"
-  integrity sha512-z/vaDkZgbLLqrLz2C1qr3lav5xuZDbBggtNdvnM1TFKqiaQu8MPC0oEe6QSFf2phREf7cB2Qa5LsW7ak16RddQ==
+  version "7.6.5"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.6.5.tgz#73c8fba2e7169e0e61304953e73e8b428db71742"
+  integrity sha512-mbwjgdlNDcp0nL29s9FoF+HEFmWn0fMXfTcgMNjQWHs+sfmOy6w3llk0n0RJeDjc+x2Y8Oj2c+JwLU1hhJBnag==
   dependencies:
-    "@storybook/addon-highlight" "7.6.3"
+    "@storybook/addon-highlight" "7.6.5"
     axe-core "^4.2.0"
 
 "@storybook/addon-actions@7.6.5":
@@ -2747,13 +2747,6 @@
     "@storybook/node-logger" "7.6.5"
     "@storybook/preview-api" "7.6.5"
     ts-dedent "^2.0.0"
-
-"@storybook/addon-highlight@7.6.3":
-  version "7.6.3"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-7.6.3.tgz#e6c9b8fe88acbf91c76c82e519eda7f2d129da61"
-  integrity sha512-Z9AJ05XCTzFZPAxQSkQf9/Hazf5/QQI0jYSsvKqt7Vk+03q5727oD9KcIY5IHPYqQqN9fHExQh1eyqY8AnS8mg==
-  dependencies:
-    "@storybook/global" "^5.0.0"
 
 "@storybook/addon-highlight@7.6.5":
   version "7.6.5"
