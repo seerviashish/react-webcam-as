@@ -2565,11 +2565,11 @@
   integrity sha512-rUV5WyJrJLoloD4NDN1V1+LDMDWOa4OTsT4yYJwQNpTU6FWxkxHpL7eu4w+DmiH8x/EAM1otkPE1+LaspIbplw==
 
 "@storybook/addon-a11y@^7.2.1":
-  version "7.6.3"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.6.3.tgz#405a5f7aed9e1b67a0caa9709724d8626d99c287"
-  integrity sha512-z/vaDkZgbLLqrLz2C1qr3lav5xuZDbBggtNdvnM1TFKqiaQu8MPC0oEe6QSFf2phREf7cB2Qa5LsW7ak16RddQ==
+  version "7.6.7"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-7.6.7.tgz#e71391ccff72432d6eb6f855153b3bcdff6a245b"
+  integrity sha512-poT2oXIYDwLnhqn6g9ACTQ+7gi8QDHVlib4TQANdcozC/qYg+Bs6Pd99wT6rT4lrC/npVNTSKKwLw+3oXqlCxg==
   dependencies:
-    "@storybook/addon-highlight" "7.6.3"
+    "@storybook/addon-highlight" "7.6.7"
     axe-core "^4.2.0"
 
 "@storybook/addon-actions@7.6.5":
@@ -2647,17 +2647,17 @@
     "@storybook/preview-api" "7.6.5"
     ts-dedent "^2.0.0"
 
-"@storybook/addon-highlight@7.6.3":
-  version "7.6.3"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-7.6.3.tgz#e6c9b8fe88acbf91c76c82e519eda7f2d129da61"
-  integrity sha512-Z9AJ05XCTzFZPAxQSkQf9/Hazf5/QQI0jYSsvKqt7Vk+03q5727oD9KcIY5IHPYqQqN9fHExQh1eyqY8AnS8mg==
-  dependencies:
-    "@storybook/global" "^5.0.0"
-
 "@storybook/addon-highlight@7.6.5":
   version "7.6.5"
   resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-7.6.5.tgz#588818963c48cc1d0f06a20323e72e3f0077b7c4"
   integrity sha512-CxzmIb30F9nLPQwT0lCPYhOAwGlGF4IkgkO8hYA7VfGCGUkJZEyyN/YkP/ZCUSdCIRChDBouR3KiFFd4mDFKzg==
+  dependencies:
+    "@storybook/global" "^5.0.0"
+
+"@storybook/addon-highlight@7.6.7":
+  version "7.6.7"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-7.6.7.tgz#53fb3ba648fcbcfafa2162299fa240b492631d0b"
+  integrity sha512-2F/tJdn45d4zrvf/cmE1vsczl99wK8+I+kkj0G7jLsrJR0w1zTgbgjy6T9j86HBTBvWcnysNFNIRWPAOh5Wdbw==
   dependencies:
     "@storybook/global" "^5.0.0"
 
