@@ -2669,13 +2669,13 @@
   dependencies:
     "@storybook/global" "^5.0.0"
 
-"@storybook/addon-interactions@7.6.7":
-  version "7.6.7"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-interactions/-/addon-interactions-7.6.7.tgz#742ea9816bb6eb41abd5f22d6ebac81dc997b7ee"
-  integrity sha512-iXE2m9i/1D2baYkRgoYe9zwcAjtBOxBfW4o2AS0pzBNPN7elpP9C6mIa0ScpSltawBfIjfe6iQRXAMXOsIIh3Q==
+"@storybook/addon-interactions@7.6.10":
+  version "7.6.10"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-interactions/-/addon-interactions-7.6.10.tgz#e1522ed169021f808401dfc46271b8c896abd258"
+  integrity sha512-lEsAdP/PrOZK/KmRbZ/fU4RjEqDP+e/PBlVVVJT2QvHniWK/xxkjCD0axsHU/XuaeQRFhmg0/KR342PC/cIf9A==
   dependencies:
     "@storybook/global" "^5.0.0"
-    "@storybook/types" "7.6.7"
+    "@storybook/types" "7.6.10"
     jest-mock "^27.0.6"
     polished "^4.2.2"
     ts-dedent "^2.2.0"
@@ -3787,7 +3787,7 @@
     "@types/express" "^4.7.0"
     file-system-cache "2.3.0"
 
-"@storybook/types@7.6.10":
+"@storybook/types@7.6.10", "@storybook/types@^7.0.12":
   version "7.6.10"
   resolved "https://registry.yarnpkg.com/@storybook/types/-/types-7.6.10.tgz#20cfb2dfeba2ecf54721de131276041d073fe42e"
   integrity sha512-hcS2HloJblaMpCAj2axgGV+53kgSRYPT0a1PG1IHsZaYQILfHSMmBqM8XzXXYTsgf9250kz3dqFX1l0n3EqMlQ==
@@ -3817,7 +3817,7 @@
     "@types/express" "^4.7.0"
     file-system-cache "2.3.0"
 
-"@storybook/types@7.6.9", "@storybook/types@^7.0.12":
+"@storybook/types@7.6.9":
   version "7.6.9"
   resolved "https://registry.yarnpkg.com/@storybook/types/-/types-7.6.9.tgz#f53a4ce5bc7832f349c4f376d388ed2f1f26ea04"
   integrity sha512-Qnx7exS6bO1MrqasHl12h8/HeBuxrwg2oMXROO7t0qmprV6+DGb6OxztsVIgbKR+m6uqFFM1q+f/Q5soI1qJ6g==
