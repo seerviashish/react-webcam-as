@@ -2874,6 +2874,14 @@
     "@storybook/client-logger" "7.6.13"
     "@storybook/preview-api" "7.6.13"
 
+"@storybook/core-client@7.6.14":
+  version "7.6.14"
+  resolved "https://registry.yarnpkg.com/@storybook/core-client/-/core-client-7.6.14.tgz#575c273a7eb2fa9fbbc74d3f2c3698536ffa44ab"
+  integrity sha512-2q+R6olHLS5GJBTZNdKscTKJ8YwKOatKx6QjktFTfxfLRfBfOGSepignYy8JnEGuU4iTOwBekmUDm5dWAUjnQg==
+  dependencies:
+    "@storybook/client-logger" "7.6.14"
+    "@storybook/preview-api" "7.6.14"
+
 "@storybook/core-common@7.6.12":
   version "7.6.12"
   resolved "https://registry.yarnpkg.com/@storybook/core-common/-/core-common-7.6.12.tgz#a42bdcdb5c68aafcf57492666ad99cfe8261e3f9"
@@ -3372,6 +3380,33 @@
     type-fest "~2.19"
     util-deprecate "^1.0.2"
 
+"@storybook/react@7.6.14":
+  version "7.6.14"
+  resolved "https://registry.yarnpkg.com/@storybook/react/-/react-7.6.14.tgz#feaf576a6b198a55d8e7384fd3fc850bdb6650f8"
+  integrity sha512-esWjMgVkYaIyS4ZvEkTrHUDLu9KkTE+wyiyRBINoZLeczAw1YHI5iNqKDMOAN+pOyCyM6iEYSZasAzsJTAFWYA==
+  dependencies:
+    "@storybook/client-logger" "7.6.14"
+    "@storybook/core-client" "7.6.14"
+    "@storybook/docs-tools" "7.6.14"
+    "@storybook/global" "^5.0.0"
+    "@storybook/preview-api" "7.6.14"
+    "@storybook/react-dom-shim" "7.6.14"
+    "@storybook/types" "7.6.14"
+    "@types/escodegen" "^0.0.6"
+    "@types/estree" "^0.0.51"
+    "@types/node" "^18.0.0"
+    acorn "^7.4.1"
+    acorn-jsx "^5.3.1"
+    acorn-walk "^7.2.0"
+    escodegen "^2.1.0"
+    html-tags "^3.1.0"
+    lodash "^4.17.21"
+    prop-types "^15.7.2"
+    react-element-to-jsx-string "^15.0.0"
+    ts-dedent "^2.0.0"
+    type-fest "~2.19"
+    util-deprecate "^1.0.2"
+
 "@storybook/router@7.2.1":
   version "7.2.1"
   resolved "https://registry.yarnpkg.com/@storybook/router/-/router-7.2.1.tgz#6c3ff9c9fd7e292b9a1328fc0f08223aee2150df"
@@ -3483,7 +3518,7 @@
     "@types/express" "^4.7.0"
     file-system-cache "2.3.0"
 
-"@storybook/types@7.6.13", "@storybook/types@^7.0.12":
+"@storybook/types@7.6.13":
   version "7.6.13"
   resolved "https://registry.yarnpkg.com/@storybook/types/-/types-7.6.13.tgz#4d957ac6ddb2213b90525b28b8548749899c2f18"
   integrity sha512-N8HfqhL5uaI69BZx+xLkKi1YIgDp34XeL3uhxii4NfThcY1KJA643Gqk3oLKefiBqBpIRGKN0nA41Fhdvhr7Hw==
@@ -3493,7 +3528,7 @@
     "@types/express" "^4.7.0"
     file-system-cache "2.3.0"
 
-"@storybook/types@7.6.14":
+"@storybook/types@7.6.14", "@storybook/types@^7.0.12":
   version "7.6.14"
   resolved "https://registry.yarnpkg.com/@storybook/types/-/types-7.6.14.tgz#3cb9bcbc3142000cbe0808f3c8772376835dee9f"
   integrity sha512-sJ3qn45M2XLXlOi+wkhXK5xsXbSVzi8YGrusux//DttI3s8wCP3BQSnEgZkBiEktloxPferINHT1er8/9UK7Xw==
