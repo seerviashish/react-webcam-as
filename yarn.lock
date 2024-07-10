@@ -4974,9 +4974,9 @@
     react-refresh "^0.14.2"
 
 "@vitest/coverage-v8@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@vitest/coverage-v8/-/coverage-v8-2.0.0.tgz#64845541b3fac6b5bc3fa5e7c83d71180f5858ff"
-  integrity sha512-k2OgMH8e4AyUVsmLk2P3vT++VVaUQbvVaP5NJQDgXgv1q4lG56Z4nb26QNcxgk4ZLypmOrfultAShMo+okIOYw==
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@vitest/coverage-v8/-/coverage-v8-2.0.1.tgz#79f4c155ef1de3c754777d92e324e32d8637d2ce"
+  integrity sha512-ACcSlJtWlravv0QyJSCO9rvm06msj6x0HooXouB0NXKG6PGxUN5VX4X8QEATfTMGsJlZLqWvq0dEY9W1V0rcSw==
   dependencies:
     "@ampproject/remapping" "^2.3.0"
     "@bcoe/v8-coverage" "^0.2.3"
