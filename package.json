@@ -131,7 +131,7 @@
     "react-dom": "18.2.0",
     "react-test-renderer": "18.3.1",
     "release-it": "17.10.0",
-    "storybook": "7.6.17",
+    "storybook": "8.4.1",
     "tsup": "8.3.5",
     "typescript": "5.6.3",
     "vitest": "^2.0.0",
