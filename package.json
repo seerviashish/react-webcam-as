@@ -133,7 +133,7 @@
     "release-it": "18.0.0",
     "storybook": "7.6.17",
     "tsup": "8.3.5",
-    "typescript": "5.7.2",
+    "typescript": "5.7.3",
     "vitest": "^2.0.0",
     "yalc": "1.0.0-pre.53"
   },
