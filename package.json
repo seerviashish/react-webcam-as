@@ -84,7 +84,7 @@
     "@babel/preset-env": "7.26.7",
     "@babel/preset-react": "7.26.3",
     "@babel/preset-typescript": "7.24.6",
-    "@commitlint/cli": "19.6.1",
+    "@commitlint/cli": "19.7.1",
     "@commitlint/config-conventional": "19.6.0",
     "@ryansonshine/commitizen": "4.2.8",
     "@ryansonshine/cz-conventional-changelog": "3.3.4",
