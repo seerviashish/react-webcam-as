@@ -119,7 +119,7 @@
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "7.37.4",
     "eslint-plugin-react-hooks": "4.6.2",
-    "eslint-plugin-storybook": "0.11.4",
+    "eslint-plugin-storybook": "0.11.6",
     "eslint-plugin-typescript-sort-keys": "3.3.0",
     "eslint-plugin-unused-imports": "4.1.4",
     "husky": "9.1.7",
