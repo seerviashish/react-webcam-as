@@ -109,7 +109,7 @@
     "@vitejs/plugin-react": "^4.0.3",
     "@vitest/coverage-v8": "^2.0.0",
     "babel-loader": "10.0.0",
-    "concurrently": "9.1.2",
+    "concurrently": "9.2.0",
     "eslint": "8.57.1",
     "eslint-config-airbnb": "19.0.4",
     "eslint-config-prettier": "10.1.5",
